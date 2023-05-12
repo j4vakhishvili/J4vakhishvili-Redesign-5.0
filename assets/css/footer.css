@@ -1,6 +1,7 @@
 footer{
     width: 1640px;
     margin: 32px auto;
+    padding-top: 32px;
     border-top: 1px solid #464646;
     display: flex;
     align-items: center;
@@ -21,4 +22,6 @@ footer a{
 footer div.icon{
     border: 1px solid #464646;
     border-radius: 8px;
+    width: 32px;
+    height: 32px;
 }
