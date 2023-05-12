@@ -1,5 +1,5 @@
 section.posts{
-    width: 1640px;
+    width: 1628px;
     margin: 0 auto;
     margin-top: 32px;
     display: flex;
@@ -9,7 +9,6 @@ section.posts{
 
 .post{
     background: #111;
-    border: 1px solid #464646;
     cursor: pointer;
 }
 
