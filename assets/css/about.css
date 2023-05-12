@@ -1,0 +1,94 @@
+section.about{
+    width: 1088px;
+    margin: 0 auto;
+    padding-top: 192px;
+    display: flex;
+}
+
+.profilepicture{
+    width: 260px;
+    height: 260px;
+    border-radius: 16px;
+}
+
+img.profilepicture{
+    border: 1px solid #464646;
+    transform: rotate(7deg);
+    display: inline-block;
+}
+
+div.profilepicture{
+    background: #FDC403;
+    transform: rotate(-7deg);
+}
+
+.about-info{
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-badges{
+    width: 264px;
+    height: 88px;
+    border-radius: 8px;
+    background: radial-gradient(circle at center -90px, #fdc40340 0, #15151540 60%);
+    border: 1px solid #464646;
+    backdrop-filter: blur(45px);
+    --webkit-backdrop-filter: blur(45px);
+    display: flex;
+}
+
+.badge{
+    width: 48px;
+    height: 48px;
+    margin: 20px;
+    background: #FDC403;
+    cursor: pointer;
+}
+
+.adobe-visual-pro{
+    background: url(../media/icons/adobe-certified-professional-in-visual-design.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.adobe-visual-ps{
+    background: url(../media/icons/adobe-certified-professional-in-visual-design-using-adobe-photoshop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.adobe-graphic-ai{
+    background: url(../media/icons/adobe-certified-professional-in-graphic-design-illustration-using-adobe-illustrator.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-info h3{
+    font-family: 'MarkGeoCaps-Bold';
+    font-size: 4rem;
+    margin: 0;
+    color: #FAFAFA;
+}
+
+.about-info a, .about-info p{
+    font-family: 'MarkGeo-Medium';
+    font-size: 2.4rem;
+    margin: 0;
+}
+
+.about-info p{
+    color: rgb(250, 250, 250, 0.6);
+    line-height: 1.5;
+}
+
+.about-info a{
+    color: rgb(253, 196, 3);
+    float: right;
+}

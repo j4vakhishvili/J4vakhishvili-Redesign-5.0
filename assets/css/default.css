@@ -1,26 +1,52 @@
+html{
+  font-size: 62.5%;
+}
+
 body{
   margin: 0;
   padding: 0;
-  background: url(../Media/Decoration/BG.webp);
-  background-size: cover;
-  background-repeat: repeat;
+  background: #151515;
 }
 
 @font-face {
-    font-family: 'ENG';
-    src: url(../Fonts/Chalkduster.otf);
+    font-family: 'MarkGeoCaps-Bold';
+    src: url(../fonts/MarkGEOCAPS-Bold.otf);
     font-display: fallback;
 }
 
 @font-face {
-    font-family: 'GEO';
-    src: url(../Fonts/SS\ GEO\ CHALK.otf);
+    font-family: 'MarkGeoCaps-SemiBold';
+    src: url(../fonts/MarkGEOCAPS-SemiBold.otf);
     font-display: fallback;
 }
 
 @font-face {
-    font-family: 'GEO-Caps';
-    src: url(../Fonts/SS\ GEO\ CHALK\ \(AllCaps\).otf);
+    font-family: 'MarkGeoCaps-Medium';
+    src: url(../fonts/MarkGEOCAPS-Medium.otf);
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'MarkGeoCaps-Regular';
+    src: url(../fonts/MarkGEOCAPS-Regular.otf);
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'MarkGeo-SemiBold';
+    src: url(../fonts/MarkGEO-SemiBold.otf);
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'MarkGeo-Medium';
+    src: url(../fonts/MarkGEO-Medium.otf);
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'MarkGeo-Regular';
+    src: url(../fonts/MarkGEO-Regular.otf);
     font-display: fallback;
 }
 
