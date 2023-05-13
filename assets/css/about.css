@@ -3,6 +3,7 @@ section.about{
     margin: 0 auto;
     padding-top: 192px;
     display: flex;
+    flex-direction: column;
 }
 
 .profilepicture{
@@ -91,4 +92,48 @@ div.profilepicture{
 .about-info a{
     color: rgb(253, 196, 3);
     float: right;
+}
+
+.about-introduction{
+    display: flex;
+}
+
+h4{
+    font-family: 'MarkGeoCaps-Bold';
+    font-size: 24px;
+    color: rgb(250, 250, 250);
+}
+
+.table-head{
+    width: 100%;
+    display: -webkit-inline-box;
+    border: 1px solid #464646;
+    border-radius: 16px 16px 0 0;
+}
+
+.table-head p:first-child{
+    width: 53.5%;
+}
+
+.table-head p.seccond{
+    width: 25.5%;
+}
+
+.table p{
+    font-family: 'MarkGeo-Medium';
+    font-size: 24px;
+    color: rgb(250, 250, 250, 0.7);
+    margin: 0;
+    padding: 16px;
+}
+
+.table-bottom section{
+    display: table-cell;
+}
+
+.table-bottom{
+    border: 1px solid #464646;
+    border-radius: 0 0 16px 16px;
+    display: flex;
+    justify-content: space-between;
 }

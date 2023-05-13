@@ -39,7 +39,7 @@ header h2{
     display: flex;
 }
 
-.separate:first-child{
+header .separate:first-child{
     align-items: center;
 }
 
@@ -55,7 +55,7 @@ header button{
     justify-content: center;
 }
 
-.separate:last-child{
+header .separate:last-child{
     gap: 12px;
     margin-right: 40px;
 }

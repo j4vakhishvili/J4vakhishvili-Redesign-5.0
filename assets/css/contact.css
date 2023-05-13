@@ -1,0 +1,77 @@
+section.contact{
+    width: 1088px;
+    margin: 0 auto;
+    padding-top: 192px;
+    display: flex;
+    gap: 16px;
+}
+
+h3, .contact a, label{
+    font-size: 2.2rem;
+    color: rgb(250, 250, 250);
+    margin: 0;
+}
+
+h3{
+    font-family: 'MarkGeoCaps-SemiBold';
+}
+
+.contact a, label{
+    text-decoration: none;
+    font-family: 'MarkGeoCaps-Medium';
+    color: rgb(250, 250, 250, 0.8);
+    margin-top: 8px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button{
+    width: 398px;
+    height: 64px;
+    border-radius: 12px;
+    border: 0;
+    font-size: 18px;
+}
+
+input, textarea{
+    background: #1a1a1a;
+    border: 1px solid #464646;
+    font-family: 'MarkGeo-Regular';
+    color: #464646;
+    text-indent: 20px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+textarea{
+    max-width: 398px;
+    height: 150px;
+    padding-top: 20px;
+}
+
+button{
+    background: #FDC403;
+    color: white;
+    font-family: 'MarkGeoCaps-SemiBold';
+    cursor: pointer;
+}
+
+.contact-form:last-child{
+    background: url(../media/profile/contact.png);
+    background-size: cover;
+    height: 675px;
+    width: 100%;
+    border-radius: 16px;
+}
+
+input:focus, textarea:focus{
+    border: 1px solid #FDC403;
+}
