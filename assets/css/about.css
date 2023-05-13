@@ -133,7 +133,19 @@ h4{
 
 .table-bottom{
     border: 1px solid #464646;
+    border-top: 0;
+    width: 100%;
     border-radius: 0 0 16px 16px;
     display: flex;
     justify-content: space-between;
+}
+
+.bottom-table:first-child{
+    width: auto !important;
+    padding: 16px 25% 16px 16px !important;
+}
+
+.bottom-table:last-child{
+    width: auto !important;
+    padding: 16px 0 16px 15.5% !important
 }
