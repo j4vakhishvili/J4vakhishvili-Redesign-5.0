@@ -99,7 +99,8 @@ div.profilepicture{
 
 h4{
     font-family: 'MarkGeoCaps-Bold';
-    font-size: 24px;
+    font-size: 2.4em;
+    margin: 16px 0 12px 0;
     color: rgb(250, 250, 250);
 }
 
@@ -120,7 +121,7 @@ h4{
 
 .table p{
     font-family: 'MarkGeo-Medium';
-    font-size: 24px;
+    font-size: 2.4rem;
     color: rgb(250, 250, 250, 0.7);
     margin: 0;
     padding: 16px;
@@ -168,6 +169,24 @@ h4{
         width: 36px;
         height: 36px;
     }
+    .table-bottom section:first-child{
+        width: 44%;
+    }
+    .table-head p:first-child{
+        width: 43%;
+    }
+    .table p{
+        font-size: 2rem;
+    }
+    .bottom-table:first-child {
+        padding: 16px 24% 16px 16px !important;
+    }
+    .bottom-table:last-child {
+        padding: 16px 0 16px 3% !important
+    }
+    .table-head p.seccond {
+        width: 32%;
+    }
 }
 
 @media only screen and (max-width: 800px){
@@ -180,6 +199,15 @@ h4{
     }
     .about-info a, .about-info p {
         font-size: 1.6rem;
+    }
+    .table p {
+        font-size: 1.6rem;
+    }
+    .table-head p:first-child {
+        width: 39%;
+    }
+    .bottom-table:first-child {
+        padding: 16px 20% 16px 16px !important;
     }
 }
 
@@ -205,5 +233,20 @@ h4{
     }
     .about-info h3 {
         font-size: 2.4rem;
+    }
+    .table p {
+        font-size: 1.2rem;
+    }
+    .bottom-table:first-child {
+        padding: 16px 0 16px 4px !important
+    }
+    .table-head p.seccond {
+        width: 12%;
+    }
+    .bottom-table:last-child {
+        padding: 16px 0 16px 23% !important;
+    }
+    h4{
+        font-size: 1.8em;
     }
 }
