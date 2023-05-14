@@ -105,6 +105,7 @@ div.icon{
         width: 286px;
         top: auto;
         bottom: 24px;
+        background: radial-gradient(circle at center -99px, #fdc30325 0, #15151575 60%);
     }
     .head-txt{
         display: none;

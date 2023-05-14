@@ -38,7 +38,7 @@ input, textarea, button{
     height: 64px;
     border-radius: 12px;
     border: 0;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 input, textarea{
@@ -85,5 +85,21 @@ input:focus, textarea:focus{
 @media only screen and (max-width: 800px){
     section.contact {
         width: 596px;
+    }
+}
+@media only screen and (max-width: 620px){
+    section.contact{
+        width: 286px;
+        padding-top: 32px;
+    }
+    .contact-form:last-child{
+        display: none;
+    }
+    input, textarea, button {
+        width: 286px;
+        font-size: 1.4rem;
+    }
+    h3, .contact a, label {
+        font-size: 1.8rem;
     }
 }
