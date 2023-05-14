@@ -47,7 +47,7 @@ section.posts{
     border-radius: 12px;
     background: #0000005e;
     backdrop-filter: blur(30px);
-    --webkit-backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -30,3 +30,7 @@ footer .separate:last-child{
     margin: 0;
     gap: 8px;
 }
+
+footer .icon{
+    cursor: pointer;
+}
