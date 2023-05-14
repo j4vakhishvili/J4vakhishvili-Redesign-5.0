@@ -1,7 +1,6 @@
 footer{
     width: 1088px;
-    margin: 32px auto;
-    padding-top: 32px;
+    margin: 32px auto 16px auto;
     border-top: 1px solid #464646;
     display: flex;
     align-items: center;
@@ -33,4 +32,27 @@ footer .separate:last-child{
 
 footer .icon{
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1150px){
+    footer {
+        width: 784px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    footer {
+        width: 596px;
+    }
+}
+
+@media only screen and (max-width: 620px){
+    footer{
+        width: 286px;
+        flex-direction: column;
+        margin-bottom: 132px;
+    }
+    footer h4{
+        text-align: center;
+    }
 }

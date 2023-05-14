@@ -89,3 +89,45 @@ section.posts{
 footer{
     width: 1628px;
 }
+
+@media only screen and (max-width: 1650px){
+    section.posts, footer{
+        width: 1088px;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    section.posts, footer {
+        width: 784px;
+    }
+    .post img, .post, .hover{
+        width: 384px;
+        height: 216px;
+        border-radius: 16px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    section.posts, footer, .post img, .post, .hover{
+        width: 596px;
+    }
+    .post img, .post, .hover{
+        height: 336px;
+    }
+}
+
+@media only screen and (max-width: 620px){
+    section.posts, footer, .post img, .post, .hover{
+        width: 286px;
+    }
+    .post img, .post, .hover{
+        height: 160px;
+        border-radius: 8px;
+    }
+    section.posts{
+        margin-top: 12px;
+    }
+    .hover{
+        display: none;
+    }
+}
