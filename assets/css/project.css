@@ -124,9 +124,16 @@ div.desc{
     transition: 0.3s;
 }
 
+.additional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin: 0 auto;
+}
+
 .additional, .additional img{
     width: 1088px;
-    margin: 0 auto;
 }
 
 .project-bottom button .icon-external{

@@ -55,6 +55,28 @@
             opacity: 0;
             cursor: default;
         } */
+        .video{
+            width: 572px;
+            height: 300px;
+            margin: 0 auto;
+        }
+        .itch{
+            width: 552px;
+            height: 167px;
+        }
+        div.desc {
+            margin-top: 12px;
+        }
+        @media only screen and (max-width: 620px){
+            .video{
+                width: 286px;
+                height: 150px;
+            }
+            .itch{
+            width: 276px;
+            height: 140px;
+        }
+        }
     </style>
 </head>
 <body>
@@ -68,8 +90,8 @@
         </div>
         <div class="separate">
             <!-- <button></button> -->
-            <button onclick="window.location.href='../about'"><div class="icon icon-about"></div></button>
-            <button onclick="window.location.href='../contact'"><div class="icon icon-contact"></div></button>
+            <button onclick="window.location.href='../about'" title="ჩემს შესახებ"><div class="icon icon-about"></div></button>
+            <button onclick="window.location.href='../contact'" title="კონტაქტი"><div class="icon icon-contact"></div></button>
         </div>
     </header>
     <section class="project">
@@ -80,7 +102,7 @@
         <div class="project-info">
             <div class="project-head">
                 <h1>No Time To Die</h1>
-                <p class="date">09.11.22</p>
+                <p class="date" title="დღე/თვე/წელი">12.09.21</p>
             </div>
             <div class="project-bottom">
                 <div class="separate">
@@ -97,11 +119,14 @@
                     <div class="desc">
                         <p>აღწერა:</p>
                         <p>
-                            ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. 
-                            Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე.
+                            ამ თამაშში შენ ხარ ძებნილი კოვბოი ვესტერნში, თავებზე მონადირე კი შენს დასაჭერად მოვიდა, 
+                            შენი მისიაა მოწინააღმდეგის განადგურება, მანამ სანამ ის გაგანადგურებს, მაგრამ დაიმახსოვრე, სიკვდილის დრო არ არის!
+                            <br>
+                            <br>
+                            თამაში შექმნილია Valhalla Games Gamejam 2021-ისთვის თბილისის მერიის მხარდაჭერით, პროექტი განხორციელდა 48სთ-ში
                         </p>
                     </div>
-                    <button>პროექტზე გადასვლა <div class="icon icon-external"></div></button>
+                    <button onclick="window.open('https://j4vakhishvili.itch.io/no-time-to-die')">პროექტზე გადასვლა <div class="icon icon-external"></div></button>
                 </div>
                 <div class="separate">
                     <img loading="lazy" src="../assets/media/covers/notimetodie.webp" alt="no time to die">
@@ -109,9 +134,10 @@
             </div>
         </div>
     </section>
-    <!-- <div class="additional">
-        <img src="assets/media/covers/hello.webp" alt="hello">
-    </div> -->
+    <div class="additional">
+        <iframe frameborder="0" src="https://itch.io/embed/1195013?bg_color=000000&amp;fg_color=ffffff&amp;link_color=bf0000&amp;border_color=3c3939" class="itch"><a href="https://j4vakhishvili.itch.io/no-time-to-die">No Time To Die by J4vakhishvili</a></iframe>
+        <iframe src="https://www.youtube.com/embed/S7uT9OtX7ys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="false" class="video"></iframe>
+    </div>
     <footer>
         <div class="separate"><h4>Designed and Developed by <a href="../index">J4vakhishvili</a></h4></div>
         <div class="separate">
