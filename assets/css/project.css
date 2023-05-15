@@ -2,6 +2,7 @@
     width: 1640px;
     margin: 0 auto;
     padding-top: 192px;
+    margin-bottom: 16px;
 }
 
 img.cover, div.cover:last-child{
@@ -114,6 +115,7 @@ div.desc{
     display: flex;
     justify-content: center;
     padding: 28px 62px 28px 56px;
+    cursor: pointer;
 }
 
 .additional, .additional img{
