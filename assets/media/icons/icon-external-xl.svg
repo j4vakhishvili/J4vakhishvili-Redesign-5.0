@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="vuesax_outline_export" data-name="vuesax/outline/export" transform="translate(-300 -508)">
+    <g id="export" transform="translate(300 508)">
+      <path id="Vector" d="M1,12.93a.989.989,0,0,1-.707-.293,1.006,1.006,0,0,1,0-1.413L11.223.29A1,1,0,1,1,12.637,1.7L1.7,12.637A.989.989,0,0,1,1,12.93Z" transform="translate(16.337 2.737)" fill="#fafafa"/>
+      <path id="Vector-2" data-name="Vector" d="M7.4,8.4a1.007,1.007,0,0,1-1-1V2H1A1.007,1.007,0,0,1,0,1,1.007,1.007,0,0,1,1,0H7.4a1.007,1.007,0,0,1,1,1V7.4A1.007,1.007,0,0,1,7.4,8.4Z" transform="translate(21.933 1.667)" fill="#fafafa"/>
+      <path id="Vector-3" data-name="Vector" d="M18.333,28.667h-8C3.093,28.667,0,25.573,0,18.333v-8C0,3.093,3.093,0,10.333,0H13a1.007,1.007,0,0,1,1,1,1.007,1.007,0,0,1-1,1H10.333C4.187,2,2,4.187,2,10.333v8c0,6.147,2.187,8.333,8.333,8.333h8c6.147,0,8.333-2.187,8.333-8.333V15.667a1,1,0,1,1,2,0v2.667C28.667,25.573,25.573,28.667,18.333,28.667Z" transform="translate(1.667 1.667)" fill="#fafafa"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H32V32H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

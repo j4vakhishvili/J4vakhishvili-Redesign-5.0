@@ -122,3 +122,11 @@ div.desc{
     width: 1088px;
     margin: 0 auto;
 }
+
+.project-bottom button .icon-external{
+    width: 32px;
+    height: 32px;
+    background: url(../media/icons/icon-external-xl.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
