@@ -8,7 +8,6 @@
 img.cover, div.cover:last-child{
     width: 1640px;
     height: 274px;
-    /* object-fit: cover; */
     border-radius: 16px;
     position: absolute;
 }
@@ -106,7 +105,7 @@ div.desc{
 }
 
 .project-bottom button{
-    background: rgb(253, 196, 3);
+    background: rgb(240, 184, 1);
     border-radius: 16px;
     border: 0;
     font-family: 'MarkGeoCaps-Regular', sans-serif;
@@ -116,6 +115,13 @@ div.desc{
     justify-content: center;
     padding: 28px 62px 28px 56px;
     cursor: pointer;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.project-bottom button:hover{
+    background: rgb(210, 161, 0);
+    transition: 0.3s;
 }
 
 .additional, .additional img{
@@ -129,4 +135,117 @@ div.desc{
     background: url(../media/icons/icon-external-xl.svg);
     background-position: center;
     background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1650px){
+    .project{
+        width: 1088px;
+    }
+    img.cover, div.cover:last-child{
+        width: 1088px;
+        height: 274px;
+    }
+    .project-bottom{
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+    .separate:last-child img {
+        width: 100%;
+    }
+    div.desc {
+        margin-top: 16px;
+    }
+    .desc p:first-child{
+        margin-top: 0;
+    }
+    .project-bottom button{
+        margin-top: 16px;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    .project, img.cover, div.cover:last-child, .additional, .additional img{
+        width: 784px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .project{
+        padding-top: 138px;
+    }
+    .project, img.cover, div.cover:last-child, .additional, .additional img{
+        width: 596px;
+    }
+    .project-head h1{
+        font-size: 2.8rem;
+    }
+    .date{
+        font-size: 1.2rem;
+    }
+    .separate:last-child img{
+        border-radius: 16px;
+    }
+    a.tag, p.tags, .desc p:first-child{
+        font-size: 1.6rem;
+    }
+    .desc p:last-child{
+        font-size: 1.8rem;
+    }
+    .project-bottom button{
+        font-size: 2rem;
+    }
+    .project-bottom button .icon-external{
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+    }
+}
+
+@media only screen and (max-width: 620px){
+    .project {
+        padding-top: 16px;
+    }
+    .project, img.cover, div.cover:last-child, .additional, .additional img{
+        width: 286px;
+    }
+    img.cover, div.cover:last-child {
+        height: 120px;
+        border-radius: 8px;
+    }
+    .separate:last-child img {
+        border-radius: 8px;
+    }
+    .project-head h1 {
+        font-size: 2rem;
+    }
+    p.tags, .desc p:first-child {
+        font-size: 1.4rem;
+    }
+    a.tag {
+        font-size: 1.2rem;
+        padding: 6px 8px;
+        border-radius: 4px;
+    }
+    .desc p:last-child {
+        font-size: 1.2rem;
+    }
+    .project-bottom button {
+        font-size: 1.4rem;
+        padding: 14px 36px 14px 28px;
+        border-radius: 8px;
+        gap: 0;
+    }
+    .project-bottom button .icon-external {
+        width: 32px;
+        height: 32px;
+    }
+    .project-head, .project-bottom{
+        padding: 16px 24px 8px 24px;
+    }
+    .project-bottom{
+        padding-top: 4px;
+    }
+    .project-bottom {
+        gap: 12px;
+    }
 }
