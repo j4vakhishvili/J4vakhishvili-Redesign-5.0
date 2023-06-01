@@ -59,6 +59,7 @@ section.posts{
     color: rgb(250, 250, 250);
     margin: 0;
     margin-left: 24px;
+    max-width: 250px;
 }
 
 .post button{
