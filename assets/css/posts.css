@@ -91,6 +91,10 @@ footer{
     width: 1628px;
 }
 
+.project-bottom a{
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 1650px){
     section.posts, footer{
         width: 1088px;
