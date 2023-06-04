@@ -86,7 +86,7 @@ svg.icon-fb{
     transform: scale(0.45);
 }
 
-.icon:hover > .icon-fb{
+.icon-fb:hover{
     fill: #3b5998;
     transition: 0.3s;
 }
