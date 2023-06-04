@@ -32,6 +32,72 @@ footer .separate:last-child{
 
 footer .icon{
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    width: 24px;
+}
+
+path.icon-yt{
+    fill: #464646;
+
+}
+
+.icon-yt:hover{
+    fill: #c4302b;
+    transition: 0.3s;
+}
+
+path.icon-dr{
+    fill: #464646;
+}
+
+.icon-dr:hover{
+    fill: #ea4c89;
+    transition: 0.3s;
+}
+
+path.icon-be{
+    fill: #464646;
+}
+
+.icon-be:hover{
+    fill: #053eff;
+    transition: 0.3s;
+}
+
+path.icon-ig{
+    fill: #464646;
+}
+
+.icon-ig:hover{
+    fill: #E4405F;
+    transition: 0.3s;
+}
+
+path.icon-fb{
+    fill: #464646;
+}
+
+svg.icon-fb{
+    transform: scale(0.45);
+}
+
+.icon:hover > .icon-fb{
+    fill: #3b5998;
+    transition: 0.3s;
+}
+
+path.icon-in{
+    fill: #464646;
+}
+
+.icon-in:hover{
+    fill: #0072b1;
+    transition: 0.3s;
 }
 
 @media only screen and (max-width: 1150px){
