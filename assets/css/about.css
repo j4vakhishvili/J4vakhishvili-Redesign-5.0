@@ -150,6 +150,100 @@ h4{
     padding: 16px 0 16px 15.5% !important
 }
 
+.skills{
+    display: flex;
+    justify-content: space-between
+}
+
+.skills-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill-icon{
+    width: 48px;
+    height: 48px;
+    background-color: #464646;
+}
+
+.ps{
+    background: url(../media/icons/ps.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.ai{
+    background: url(../media/icons/ai.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.id{
+    background: url(../media/icons/id.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.xd{
+    background: url(../media/icons/xd.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.pr{
+    background: url(../media/icons/pr.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.ae{
+    background: url(../media/icons/ae.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.frontend{
+    background: url(../media/icons/frontend.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.skill-name{
+    margin: 0 16px;
+}
+
+.skill-progress{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+progress{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 72.5vh;
+    height: 10px;
+    margin: 20px 0;
+}
+
+progress::-webkit-progress-value{
+    border-radius: 50px;
+    background-color: #dc0049;
+}
+
+progress::-webkit-progress-bar{
+    border-radius: 50px;
+    background-color: #252525;
+}
+
 @media only screen and (max-width: 1150px){
     section.about {
         width: 784px;
@@ -187,6 +281,9 @@ h4{
     .table-head p.seccond {
         width: 32%;
     }
+    progress{
+        width: 55.5vh;
+    }
 }
 
 @media only screen and (max-width: 800px){
@@ -208,6 +305,13 @@ h4{
     }
     .bottom-table:first-child {
         padding: 16px 20% 16px 16px !important;
+    }
+    progress{
+        width: 34.5vh;
+        height: 6px;
+    }
+    .skill-icon{
+        background-size: 60% !important;
     }
 }
 
@@ -248,5 +352,25 @@ h4{
     }
     h4{
         font-size: 1.8em;
+    }
+    .skill-name {
+        margin: 0px 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .skill-name p{
+        padding: 0;
+        margin: 20px 0;
+    }
+    progress{
+        width: 16vh;
+        height: 4px;
+    }
+    .skill-icon {
+        width: 32px;
+        height: 32px;
+        background-size: 70% !important;
+        margin: 10px 0;
     }
 }
