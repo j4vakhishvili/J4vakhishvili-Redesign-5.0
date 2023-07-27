@@ -159,7 +159,7 @@ input:focus,
 optgroup:focus,
 select:focus,
 textarea:focus {
-  outline: none;
+  outline: transparent;
 }
 
 button,
