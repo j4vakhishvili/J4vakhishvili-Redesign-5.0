@@ -50,6 +50,12 @@ body{
     font-display: fallback;
 }
 
+@font-face {
+    font-family: 'MarkGeo-Light';
+    src: url(../fonts/MarkGEO-Light.otf);
+    font-display: fallback;
+}
+
 ::-webkit-scrollbar {
     width: 12px;
   }
