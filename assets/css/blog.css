@@ -81,7 +81,7 @@ p.date{
 
 .blog-container h1{
     font-family: 'MarkGeoCaps-SemiBold', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: #CCCCCC;
     margin: 0;
 }
@@ -103,9 +103,13 @@ p.date{
 .desc{
     color: #CCCCCC;
     font-family: 'MarkGeo-Regular';
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     opacity: 0.6;
+}
+
+.blog-blog-info p{
+    font-size: 14px;
 }
 
 @media only screen and (max-width: 1150px){
@@ -119,6 +123,15 @@ p.date{
     }
     .blog-card{
         width: 44.6%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .desc{
+        font-size: 16px;
+    }
+    .blog-blog-info p{
+        font-size: 12px;
     }
 }
 
